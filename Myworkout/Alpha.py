@@ -7,9 +7,9 @@ b, g, r = cv2.split(img)
 
 # Create a green dot
 imggreen = img.copy()
-imggreen[80:120, 80:120, 0] = 0  # Blue channel
+imggreen[80:120, 80:120, 0] = 220  # Blue channel
 imggreen[80:120, 80:120, 1] = 255  # Green channel
-imggreen[80:120, 80:120, 2] = 0  # Red channel
+imggreen[80:120, 80:120, 2] = 220  # Red channel
 
 imggreen = cv2.cvtColor(imggreen, cv2.COLOR_BGR2RGBA)  # Ensure RGBA format for proper display
 cv2.imwrite('image/kangaroo_green.jpg',imggreen)

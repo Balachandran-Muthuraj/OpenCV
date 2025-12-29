@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: WrmsApp
+Version: 1.0
+Requires-Dist: flask
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: dlib

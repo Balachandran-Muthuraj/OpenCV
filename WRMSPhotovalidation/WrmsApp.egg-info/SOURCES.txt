@@ -1,0 +1,6 @@
+setup.py
+WrmsApp.egg-info/PKG-INFO
+WrmsApp.egg-info/SOURCES.txt
+WrmsApp.egg-info/dependency_links.txt
+WrmsApp.egg-info/requires.txt
+WrmsApp.egg-info/top_level.txt
